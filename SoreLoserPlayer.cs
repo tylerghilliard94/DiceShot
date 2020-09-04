@@ -1,4 +1,5 @@
 using System;
+using System.Threading;
 namespace ShootingDice
 {
     // TODO: Complete this class
@@ -48,22 +49,22 @@ namespace ShootingDice
                 Console.WriteLine("Unhandled exception. System.Exception: Exception of type 'System.Exception' was thrown.");
                 Console.WriteLine("ajkabgfljblgkjbsfgbsafjbdgls;zjhgf;ksfzbgsfgghlsfg'sarldjkgksfhgknslga;ngsk;sgb;leg");
                 Console.WriteLine("akjhfnjkasbfil;oasnlgsdfg,.smfg;akdhjftoialskhfoiahgfiagdksfjklanflkagflaisdhkjasbfjkad");
-                System.Threading.Thread.Sleep(6000);
+                Thread.Sleep(6 * 1000);
                 Console.WriteLine(""); Console.WriteLine("");
                 Console.WriteLine("DiceShot.exe Resuming....");
-                System.Threading.Thread.Sleep(3000);
+                Thread.Sleep(3 * 1000);
                 Console.WriteLine(".");
-                System.Threading.Thread.Sleep(1000);
+                Thread.Sleep(1000);
                 Console.WriteLine("...");
-                System.Threading.Thread.Sleep(1000);
+                Thread.Sleep(1000);
                 Console.WriteLine(".....");
-                System.Threading.Thread.Sleep(1000);
+                Thread.Sleep(1000);
                 Console.WriteLine(".......");
-                System.Threading.Thread.Sleep(1000);
+                Thread.Sleep(1000);
                 Console.WriteLine(".........");
-                System.Threading.Thread.Sleep(1000);
+                Thread.Sleep(1000);
                 Console.WriteLine("............");
-                System.Threading.Thread.Sleep(1000);
+                Thread.Sleep(1000);
                 Console.WriteLine("...............");
 
             }

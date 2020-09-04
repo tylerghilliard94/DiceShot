@@ -10,7 +10,17 @@ namespace ShootingDice
         public override int Roll()
         {
             Console.Write("What number did you roll? ");
-            return int.Parse(Console.ReadLine());
+            try
+            {
+
+
+                return int.Parse(Console.ReadLine());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("You must input a number!");
+                return int.Parse(Console.ReadLine());
+            }
         }
     }
 }

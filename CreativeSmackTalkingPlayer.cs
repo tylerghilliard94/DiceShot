@@ -6,7 +6,7 @@ namespace ShootingDice
     // A SmackTalkingPlayer who randomly selects a taunt from a list to say to the other player
     public class CreativeSmackTalkingPlayer : Player
     {
-        public List<string> Taunt = new List<string>(){
+        private List<string> Taunt = new List<string>(){
             "Wow you suck!", "That's crazy that you're that dumb...", "Learn to throw down the gauntlet!", "welp...sucks to be you.."
         };
 
